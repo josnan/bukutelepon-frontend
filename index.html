@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+<head>
+  <title>Buku Telepon</title>
+
+  <!-- META TAGS -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- LOAD STYLE -->
+  <link rel="stylesheet" href="/assets/css/bulma.min.css">
+
+  <!-- LOAD SCRIPT -->
+  <script src="/assets/js/vue.js"></script>
+</head>
+<body style="background-color: #ddd; height: 100%">
+  <div id="app">
+    <app-header></app-header>
+
+    <app-main></app-main>
+
+    <!-- <app-footer></app-footer> -->
+  </div>
+
+  <script src="/assets/js/components.js"></script>
+  <script>
+    new Vue({
+      el: '#app',
+      data: () => ({
+        title: 'Selamat Datang ... !!',
+      }),
+    })
+  </script>
+</body>
+</html>
