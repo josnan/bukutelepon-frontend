@@ -9,5 +9,5 @@ e.exports=function(e){return null!=e&&(n(e)||r(e)||!!e._isBuffer)}},function(e,t
 //# sourceMappingURL=ajax.min.map
 
 const ajax = axios.create({
-  baseURL: 'http://localhost:8080',
+  baseURL: config.api,
 });
